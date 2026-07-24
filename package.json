@@ -1,0 +1,15 @@
+{
+  "name": "imara-credit-sms",
+  "version": "1.0.0",
+  "description": "SMS backend for Imara Credit",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "body-parser": "^1.20.2",
+    "africastalking": "^0.7.0"
+  }
+}
